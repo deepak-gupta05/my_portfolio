@@ -1,0 +1,101 @@
+
+@media screen and (max-width : 720px){
+    nav{
+        padding:1.5rem 1rem;
+    }
+
+    nav ul{
+        position: fixed;
+        background-color: #fcfcfc;
+        flex-direction: column;
+        top: 86px;
+        left: 10px;
+        width: 80%;
+        text-align: center;
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
+    }
+
+    nav ul li{
+        margin: 8px;
+    }
+
+    .bars{
+        display: block;
+    }
+
+    nav ul.show{
+        transform: translateX(0);
+    }
+
+    .hero{
+        margin-top: -4rem;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .hero-img{
+        height: 28rem;
+        width: 20rem;
+    }
+
+    .bio{
+       margin-top: 2rem;
+        width: 20rem;
+    }
+
+    .about-details{
+        margin-top: 2rem;
+        padding: 1rem 3.5rem;
+    }
+
+    .about-details h2{
+        text-align: center;
+    }
+
+    .about-details p{
+        text-align: justify;
+    }
+
+    .icon{
+        width: 5.875rem;
+        height: 5.25rem;
+    }
+
+    .projects-container{
+        flex-direction: column;
+    }
+
+    .project-container{
+        width: 20.875rem;
+    }
+
+    .contact-form-container{
+        max-width: 23.75rem;
+    }
+}
+
+@media screen and (max-width : 420px){
+    .hero{
+        margin-top: 1rem;
+      
+    }
+    .hero img{
+        height: 25rem;
+        width: 17rem;
+          background: linear-gradient(40deg,rgb(248, 246, 246),rgb(247, 242, 242));
+    }
+   
+
+    .bio{
+        width:16rem;
+    }
+
+    .project-container{
+        width: 17.875rem;
+    }
+
+    .contact-form-container{
+        max-width: 17.75rem;
+    }
+}
