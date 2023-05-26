@@ -76,6 +76,9 @@
 }
 
 @media screen and (max-width : 420px){
+    nav .subtitle{
+        margin-left: 1rem;
+    }
     .hero{
         margin-top: 1rem;
       
